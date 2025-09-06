@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Html Form</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <pr>Please fill out the form below register.</pr>
+    <hr>
+
+    <form>
+        <h2>Personal Detail</h2>
+        <label for="name">First Name:</label>
+        <input type="text" name="name" id="name" placeholder="e.g., Mohammad" required>
+        <br><br>
+
+        <label for="name">Last Name:</label>
+        <input type="text" name="name" id="name" placeholder="e.g., Ayan" required>
+        <br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" name="DOB" id="dob" required>
+        <br><br>
+
+        <h3>Gender:</h3>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" required>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" required>
+        <br><br>
+
+        <label>Upload Your Photo</label>
+        <br>
+        <input type="file" name="file">
+        <br><br>
+
+        <hr>
+
+        <h2>Contact Information</h2>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="you@example.com">
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="e.g., 9876543210" required>
+        <br><br>
+
+        <label for="address">Mailing Address:</label>
+        <br>
+        <textarea name="address" id="address" placeholder="Street Address, City, State, ZIP code" rows="4" cols="20"></textarea>
+        <br><br>
+
+        <hr>
+
+        <h2>Academic Information</h2>
+
+        <label for="course">Select Your Course:</label>
+        <br>
+        <select name="Course" id="course">
+            <option value="Btech">-- Choose a course --</option>
+            <option value="Btech">Btech</option>
+            <option value="BBA">BBA</option>
+            <option value="BA">BA</option>
+            <option value="MBA">MBA</option>
+            <option value="Mtech">Mtech</option>
+        </select>
+
+        <br><br>
+        <label for="interest">Extracurricular Interest:</label>
+        <br>
+        <label for="sports">sports</label>
+        <input type="checkbox" name="sports" id="sports">
+         
+        <label for="music">Music & Arts</label>
+        <input type="checkbox" name="music" id="music">
+
+        <label for="Technology">Technology</label>
+        <input type="checkbox" name="Technology" id="Technology">
+        
+        <br><br>
+
+        <hr>
+
+        <h2>Create Your Account</h2>
+
+        <br>
+        <label for="password">Create Password:</label>
+        <input type="password" name="password" id="password" placeholder="">
+
+        <br><br>
+
+        <label for="secQuest">Security Question:</label>
+        <select name="SecQuest" id="SecQuest">
+            <option value="What was your first pet's name?">What was your first pet's name?"</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="SecAns">Security Answer:</label>
+        <input type="tel" name="SecAns" id="SecAns" placeholder="">
+
+        <br><br>
+
+        <label for="agreement">I agree to the Term & Conditions.</label>
+        <input type="checkbox" name="agreement" id="agreement" >
+        
+        <br><br>
+
+        <button type = "submit">Register</button>
+        <button type = "submit">Clear form</button>
+
+        <label for="favcolor">Choose a color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+
+
+
+        
+
+    </form>
+    
+</body>
+</html>
